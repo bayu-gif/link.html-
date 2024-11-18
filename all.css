@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-color: #fafafa;
+    color: #5f4b4b;
+}
+
+header {
+    background: #f7f0fa;
+    border-bottom: 1px solid #00ff0d;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #5f4b4b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #5f4b4b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #2bff00;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+}
+
+.card p {
+    padding: 0 10px 10px;
+    color: #999;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #51ff00; /* Latar belakang footer putih */
+    border-top: 1px solid #dbdbdb; 
+    color: #999;
+}
+
+footer p {
+    font-size: 14px;
+
+}
